@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mongodb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest",
+        "--readOnly"
+      ],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb://mcp-client-user:eBVvgpQd5qEksmU1@localhost:27017/mydb?authSource=mydb"
+      }
+    }
+  }
+}
